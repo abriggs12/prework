@@ -33,7 +33,7 @@ public class WhatToEat {
 		      
 		        if (password.length() <= MAX && password.length() >= MIN &&uppercaseCounter >= MIN_Uppercase 
 		        		&& lowercaseCounter >= MIN_Lowercase && digitCounter >= NUM_Digits) { 
-		        		                    System.out.println("Valid Password");
+		        		                    System.out.println("Valid Password and accepted");
 		        		             }
 		        		             else {
 		        		   System.out.println("Error");
